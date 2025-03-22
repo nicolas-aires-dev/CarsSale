@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Novo Carro{% endblock %}</title>
+</head>
+
+{% block content %}
+    
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token%}
+    
+    <table color: >
+        {{ form.as_table }}
+    </table>
+    
+    <input type="submit" value="Cadastrar" class="btnbtn-primary" >
+</form>
+
+</html>
+{% endblock %}
