@@ -1,5 +1,13 @@
 # CarsSale 🚗
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
+![Django](https://img.shields.io/badge/Django-4.x-green?logo=django)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue?logo=postgresql)
+![OpenAI](https://img.shields.io/badge/OpenAI-API-orange?logo=openai)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-lightgrey)
+
+
 Sistema de cadastro de carros à venda, desenvolvido em **Python/Django** com integração de **IA** para geração automática de descrições dos veículos.
 
 ## ✨ Funcionalidades
