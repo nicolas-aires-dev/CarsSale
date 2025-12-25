@@ -1,5 +1,5 @@
 from django import forms
-from cars.models import Brand, Car
+from cars.models import Car
 
 #Form para criar um novo carro
 class CarModelForm(forms.ModelForm):

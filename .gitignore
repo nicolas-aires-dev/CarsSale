@@ -1,3 +1,44 @@
-venv
-db.sqlite3
-media
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ---- Virtualenv ----
+venv/
+env/
+ENV/
+.venv/
+
+# ---- Configurações locais ----
+*.env
+.env.*
+*.ini.local
+uwsgi.ini.local
+uwsgi_params.local
+
+# ---- uWSGI ----
+*.pid
+*.log
+uwsgi.sock
+
+# ---- Django ----
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# ---- AWS / Deploy ----
+.aws/
+*.pem
+*.key
+*.crt
+
+# ---- IDEs ----
+.vscode/
+.idea/
+
+# ---- Outros ----
+*.DS_Store
+media/cars/*
